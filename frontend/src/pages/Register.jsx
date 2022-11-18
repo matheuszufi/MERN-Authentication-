@@ -64,7 +64,7 @@ const onSubmit = (e) => {
         <>
         <section className='heading'>
             <h1>
-                <FaUser /> Register {user}
+                <FaUser /> Register
             </h1>
             <p>Please create an account</p>
         </section>
