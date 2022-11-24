@@ -5,7 +5,7 @@ const API_URL = '/api/tickets/'
 //Create new Ticket
 const createTicket = async (ticketData, token) => {
     const config = {
-        Headers: {
+        headers: {
             Authorization: `Bearer ${token}`
         }
     }
@@ -27,6 +27,7 @@ const getTickets = async (token) => {
 
     return response.data
 }
+
 
 const ticketService = {
     createTicket,
