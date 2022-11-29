@@ -139,7 +139,7 @@ const updateTicket = asyncHandler(async (req, res) => {
     const updatedTicket = await Ticket.findByIdAndUpdate(req.params.id, req.body, { new: true })
 
 
-    res.status(200).json(tickets)
+    res.status(200).json(ticket)
   })
 
 
